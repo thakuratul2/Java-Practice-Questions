@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Design9 {
+class design9 {
     public static void main(String[] args) {
         // Butterfly Patterns
 
