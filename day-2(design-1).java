@@ -4,6 +4,7 @@ class Design1{
       public static void main(String[] args){
         //Design-1 Solid Rectangle
         Scanner sc = new Scanner(System.in);
+        sc.close();
         int row,col;
         System.out.println("Enter the number of Rows: ");
         row = sc.nextInt();

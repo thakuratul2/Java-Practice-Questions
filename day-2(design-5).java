@@ -8,6 +8,7 @@ class Design5 {
         int n = sc.nextInt();
         System.out.println("Enter the number of columns: ");
         int m = sc.nextInt();
+        sc.close();
         //outer loop for rows
         for(int i =1;i<=n;i++){
             //inner loop for spaces

@@ -9,6 +9,7 @@ class Design2 {
         rows = sc.nextInt();
         System.out.println("Enter the number of columns: ");
         cols= sc.nextInt();
+        sc.close();
 
         //outer loop for rows
         for(int i =1;i<=rows;i++){
