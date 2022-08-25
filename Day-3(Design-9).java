@@ -18,7 +18,7 @@ class Design9 {
             }
             //logic for printing spaces
             int spaces = 2*(n-i);
-            for(int j =1;j<=spaces;j++){
+            for(int j =1;j<=spaces;j+){
                 System.out.print(" ");
             }
             for(int j = 1;j<=i;j++){
