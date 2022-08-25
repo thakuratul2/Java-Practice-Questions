@@ -15,6 +15,7 @@ class Loops {
         //Write a JAVA C program to print all even numbers from 1 to n
         System.out.println("Enter the Number: ");
         int num1 = sc.nextInt();
+        sc.close();
         int count1 = 1;
         while(count1<=num1){
             if(count1%2==0){

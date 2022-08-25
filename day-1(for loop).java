@@ -13,6 +13,7 @@ class Loop {
         // Write a JAVA C program to print all odd numbers from 1 to n
         System.out.println("Enter the Number: ");
         int a = sc.nextInt();
+        sc.close();
         for(int j=1;j<=a;j++){
             if(j%2!=0){
                 System.out.println(j);
