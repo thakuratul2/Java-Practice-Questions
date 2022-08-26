@@ -27,6 +27,7 @@ class Arrays2 {
 
             System.out.print(b[j] + " ");
         }
+        sc.close();
         System.out.println();
         System.out.println("Substraction of Arrays is : ");
         for(int i=0;i<5;i++){
