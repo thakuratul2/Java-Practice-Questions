@@ -8,6 +8,7 @@ class design8 {
         int n = sc.nextInt();
         System.out.println("Enter the number of columns: ");
         int m = sc.nextInt();
+        sc.close();
 
         //outer loop
         for(int i=0;i<=n;i++){
