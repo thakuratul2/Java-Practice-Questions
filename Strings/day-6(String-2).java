@@ -12,7 +12,7 @@ class Strings2{
           if(str.charAt(i)=='a'||str.charAt(i)=='e'||str.charAt(i)=='i'||str.charAt(i)=='o'||str.charAt(i)=='u'){
             count1++;
           }
-          else if(str.charAt(i)>='a'&&str.charAt(i)<='z'){
+          else if(str.charAt(i)>='a'&& str.charAt(i)<='z'){
             count2++;
           }
      }
