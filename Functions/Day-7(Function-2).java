@@ -8,7 +8,7 @@ class Function2 {
         int first = sc.nextInt();
         System.out.println("Enter the Second Number: ");
         int second = sc.nextInt();
-        System.out.println("Enter the Third Number: ");
+        System.out.println("Enter the Thir Number: ");
         int third = sc.nextInt();
         sc.close();
         Small(first,second, third);
