@@ -7,7 +7,7 @@ class Function1{
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of a: ");
         int first = sc.nextInt();
-        System.out.println("Enter the valu of b: ");
+        System.out.println("Enter the value of b: ");
         int second = sc.nextInt();
         sc.close();
         swap(first, second);
