@@ -3,14 +3,14 @@ package Recursion;
 import java.util.Scanner;
 
 class Recursion4 {
-    public static void towerof(int n,String from,String to,String aux){
+    public static void towerof(int n,String from,String helper,String dest){
         if(n==1){
-            System.out.println("Move disk 1 from rod "+from+" to rod "+to);
+            System.out.println("Move disk 1 from rod "+from+" to rod "+helper);
             return;
         }
-        towerof(n-1,from,aux,to);
-        System.out.println("Move disk "+n+" from rod "+from+" to rod "+to);
-        towerof(n-1,aux,to,from);
+        towerof(n-1,from,helper,dest);
+        System.out.println("Move disk "+n+" from rod "+from+" to rod "+helper);
+        towerof(n-1,helper,dest,from);
     }
     public static void main(String[] args) {
         //tower of hanoi
