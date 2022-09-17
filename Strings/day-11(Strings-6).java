@@ -9,16 +9,10 @@ class String6 {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter the String: ");
             String str = sc.nextLine();
-
-           
-            System.out.println("Enter the index Value to find: ");
+            System.out.println("Enter the index value to find: ");
             int index = sc.nextInt();
-            
-            for(int i = str.length();i>0;i--){
-                 index = str.charAt(i);
-        }
-             
-            System.out.println((char)index);
+
+            System.out.println("The Character is "+ str.charAt(index));
             sc.close();
         }
     }
