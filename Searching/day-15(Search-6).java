@@ -6,7 +6,7 @@ class Search6 {
         int last = arr.length-1;
         int ans = 0;
 
-        int mid;
+        int mid=0;
         while(start<=last){
             mid = (start+last)/2;
             if(arr[mid]==x){
@@ -23,9 +23,9 @@ class Search6 {
         //find smallest number to greatest number than target
         Scanner sc = new Scanner(System.in);
         //int size = sc.nextInt();
-       
+        System.out.println("Elements in arrays: ");
         String arr[] = {"d", "j", "k"};
-
+        System.out.println(arr);
 
         //loop 
         
