@@ -23,9 +23,9 @@ class Search6 {
         //find smallest number to greatest number than target
         Scanner sc = new Scanner(System.in);
         //int size = sc.nextInt();
-        System.out.println("Elements in arrays: ");
+       
         String arr[] = {"d", "j", "k"};
-        System.out.println(arr);
+
 
         //loop 
         
