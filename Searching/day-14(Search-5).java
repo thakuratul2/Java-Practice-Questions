@@ -18,7 +18,8 @@ class Search5 {
 
     }
     public static void main(String[] args) {
-        //fllor of number
+        //floor of number
+        //floor = greatest number is smaller or equal to target
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size: ");
         int size = sc.nextInt();
