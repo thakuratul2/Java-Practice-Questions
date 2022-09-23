@@ -20,17 +20,17 @@ class Search7 {
         int key = sc.nextInt();
 
         int answer = LeetCode2Search(arr,size,key,true);
+        int answer2 = LeetCode2Search(arr, size, key, false);
         System.out.println("The Occurence are: "+answer);
+        System.out.println("The Second Occurece are: "+answer2);
         sc.close();
     }
     
     public int[] LeetCode2(int arr[], int size, int key) {
         int[] ans = { -1, -1 };
-        int s = LeetCode2Search(arr, size, key, true);
-        int l = LeetCode2Search(arr, size, key, false);
+        ans[0] = LeetCode2Search(arr, size, key, true);
+        ans[1] = LeetCode2Search(arr, size, key, false);
 
-        ans[0] = s;
-        ans[1] = l;
         return ans;
     }
 
