@@ -14,6 +14,29 @@ class Insertion {
 
         for(int i =0;i<size;i++){
             arr[i]= sc.nextInt();
+           // sc.close();
+        }
+        System.out.println();
+        System.out.println("Before Sorted: ");
+        for(int i = 0;i<size;i++){
+            System.out.print(arr[i]+" ");
+        }
+
+        //logic
+        for(int i = 1;i<size;i++){
+            int j = i;
+            while((j>0) && (arr[j-1]>arr[j])){
+                //swap code
+                int temp = arr[j];
+                arr[j] = arr[j-1];
+                arr[j-1]= temp;
+                j--;
+            }
+        }
+        System.out.println();
+        System.out.println("After Sorted: ");
+        for(int i =0;i<size;i++){
+            System.out.print(arr[i]+" ");
             sc.close();
         }
     }

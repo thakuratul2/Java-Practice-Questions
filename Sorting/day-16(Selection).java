@@ -17,7 +17,7 @@ class Selection{
         System.out.println();
         System.out.println("Before Sorted: ");
         for(int i =0;i<size;i++){
-            System.out.println(arr[i]+" ");
+            System.out.print(arr[i]+" ");
         }
         System.out.println();
         //logic
@@ -27,13 +27,13 @@ class Selection{
             for(int j=i+1;j<size;j++){
                 if(arr[max_ele]>arr[j]){
                     max_ele = j;
-
-                    //swap code 
-                    int temp = arr[max_ele];
-                    arr[max_ele] = arr[i];
-                    arr[i] = temp;
+                   
                 }
             }
+            // swap code
+            int temp = arr[i];
+            arr[i] = arr[max_ele];
+            arr[max_ele] = temp;
         }
         for(int i =0;i<size;++i){
             System.out.print(arr[i]+" ");
