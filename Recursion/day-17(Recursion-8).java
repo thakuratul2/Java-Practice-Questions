@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 class Recursion8 {
     public static int Natural(int num){
-        if(num==0){
-            return 1;
+        if(num==1){
+            return num;
         }
         System.out.println("Series is: "+num);
         return Natural(num-1);
