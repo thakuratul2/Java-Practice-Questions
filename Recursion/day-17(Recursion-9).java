@@ -1,21 +1,20 @@
 import java.util.Scanner;
 
-class Recursion8 {
-    public static int Natural(int num){
+class Recursion9 {
+    public static int funRev(int num){
         if(num==0){
             return 1;
         }
+        funRev(num-1);
         System.out.println("Series is: "+num);
-        return Natural(num-1);
+        return num;
     }
+
     public static void main(String[] args) {
-        //series of n to 1
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
-        int num = sc.nextInt();
-
-        Natural(num);
-        //System.out.println("Series is: "+answer);
+        int n = sc.nextInt();
+        funRev(n);
         sc.close();
     }
 }
