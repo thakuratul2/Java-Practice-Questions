@@ -9,6 +9,7 @@ class Recursion12 {
         return num%10 * SumPro(num/10);
     }
     public static void main(String[] args) {
+        //product of digits
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
         int n = sc.nextInt();
