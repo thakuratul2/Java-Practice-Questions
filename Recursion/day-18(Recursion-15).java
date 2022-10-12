@@ -11,6 +11,7 @@ class Recursion15 {
     }
 
     public static void main(String[] args){
+        //Palidrome of number
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
         int num = sc.nextInt();
